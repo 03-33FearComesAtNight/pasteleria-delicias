@@ -1,0 +1,103 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f8f8f8;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #555;
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s ease-in-out;
+}
+
+nav a:hover {
+    color: #ff66b2; /* Color de resaltado al pasar el mouse, puedes ajustarlo según tus preferencias */
+}
+
+.whatsapp {
+    background-color: #25d366;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.whatsapp a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 50px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.logo img {
+    width: 100px;
+}
+
+.card img.cake-image {
+    width: 100%;
+    max-width: 300px; /* Ajusta el ancho máximo según tus necesidades */
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.card-content {
+    text-align: left;
+}
+
+.card-content h3 {
+    color: #ff66b2; /* Color del título */
+}
+
+.card-content p {
+    color: #555; /* Color del texto */
+}
+
+.videos {
+    /* Estilos para la sección de videos */
+}
+
+/* Colores pasteles para la barra de navegación */
+header {
+    background-color: #ffe6f2; /* Rosa pastel */
+}
+
+nav a {
+    color: #6699ff; /* Azul pastel */
+}
+
+nav a:hover {
+    color: #ff6666; /* Rojo pastel al pasar el mouse */
+}
+
+.whatsapp {
+    background-color: #66ff66; /* Verde pastel */
+}
