@@ -61,6 +61,27 @@ footer {
     width: 100px;
 }
 
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px;
+    transition: transform 0.3s ease-in-out;
+    overflow: hidden;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
 .card img.cake-image {
     width: 100%;
     max-width: 300px; /* Ajusta el ancho máximo según tus necesidades */
